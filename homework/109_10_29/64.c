@@ -6,8 +6,8 @@ int main(void)
 	int i,j,n,r,r2;
 	r = 0;
 	
-	printf("­pºâ1*n + 2*(n-1) + 3*(n-2) + 4*(n-3) +...+(n-1)*2+n*1\n");
-	printf("¿é¤J¤@¾ã¼Æn:");
+	printf("è¨ˆç®—1*n + 2*(n-1) + 3*(n-2) + 4*(n-3) +...+(n-1)*2+n*1\n");
+	printf("è¼¸å…¥ä¸€æ•´æ•¸n:");
 	scanf("%d",&n);
 	
 	for (i=1;i<=n;i++)
