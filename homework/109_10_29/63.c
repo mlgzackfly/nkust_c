@@ -4,13 +4,13 @@
 int main(void)
 {
 	int i,n,r;
-	printf("¿é¤J¤@­Ó¼Æ:")
+	printf("è¼¸å…¥ä¸€å€‹æ•¸:")
 	scanf("%d", &n);
 	r = 0;
 	for (i=1;i<=n;i++)
 	{
 		r += i*(i+1);
 	}
-	printf("«e%d¶µ¤§©M:%d", n,r);
+	printf("å‰%dé …ä¹‹å’Œ:%d", n,r);
 	return 0 ;
 }
