@@ -4,16 +4,16 @@
 int main(void)
 {
 	float a,b,c;
-	printf("§PÂ_¤@¤T¨¤§Î¬O§_¬°¶w¨¤¤T¨¤§Î\n");
-	printf("¿é¤J¤TÃäªøa,b,c:");
+	printf("åˆ¤æ–·ä¸€ä¸‰è§’å½¢æ˜¯å¦ç‚ºéˆè§’ä¸‰è§’å½¢\n");
+	printf("è¼¸å…¥ä¸‰é‚Šé•·a,b,c:");
 	scanf("%f,%f,%f", &a,&b,&c);
-	if (a*a > (b*b+c*c) && b*b > (a*a+b*b) && c*c > (a*a+b*b))
+	if (a*a > (b*b+c*c) || b*b > (a*a+b*b) || c*c > (a*a+b*b))
 	{
-		printf("Ãäªø %f,%f,%f ªº¤T¨¤§Î¬O¶w¨¤¤T¨¤§Î", a,b,c);
+		printf("é‚Šé•· %f,%f,%f çš„ä¸‰è§’å½¢æ˜¯éˆè§’ä¸‰è§’å½¢", a,b,c);
 	}
 	else
 	{
-		printf("Ãäªø %f,%f,%f ªº¤T¨¤§Î¤£¬O¶w¨¤¤T¨¤§Î", a,b,c);
+		printf("é‚Šé•· %f,%f,%f çš„ä¸‰è§’å½¢ä¸æ˜¯éˆè§’ä¸‰è§’å½¢", a,b,c);
 	}
 	return 0 ;
 }
