@@ -4,28 +4,32 @@
 int main(void)
 {
 	int score;
-	printf("¿é¤J¦¨ÁZ(0~100):");
+	printf("è¼¸å…¥æˆç¸¾(0~100):");
 	scanf("%d", &score);
 	
-	if (score <60 )
+	if (score < 0 || score >100)
 	{
-		printf ("¤Bµ¥");
+		printf("è«‹è¼¸å…¥0~100çš„æ•¸ï¼");
+	}
+	else if (score <60 )
+	{
+		printf ("ä¸ç­‰");
 	}
 	else if (score <70 )
 	{
-		printf ("¤şµ¥");
+		printf ("ä¸™ç­‰");
 	}
 	else if (score <80 )
 	{
-		printf ("¤Aµ¥");
+		printf ("ä¹™ç­‰");
 	}
 	else if (score <90 )
 	{
-		printf ("¥Òµ¥");
+		printf ("ç”²ç­‰");
 	}
 	else if (score <100 )
 	{
-		printf ("Àuµ¥");
+		printf ("å„ªç­‰");
 	}
 		
 	return 0 ;
